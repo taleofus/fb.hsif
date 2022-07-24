@@ -1,0 +1,93 @@
+.grey-bg {
+  background-color: #f0f2f5;
+  width: 100%;
+  min-height: 640px;
+}
+.content-wrapper {
+  display: flex;
+  gap: 40px;
+  margin: 0 auto;
+  padding: 72px 0 112px;
+  position: relative;
+  width: 980px;
+}
+.left-wrapper {
+  padding-top: 112px;
+}
+.fb-logo {
+  width: 300px;
+  height: 106px;
+}
+.title {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+  width: 500px;
+  padding-left: 25px;
+}
+.right-content {
+  margin-top: 50px;
+}
+.login-box {
+  display: flex;
+  flex-direction: column;
+  width: 396px;
+  padding: 12px 15px 24px 15px;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.input {
+  width: 100%;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  height: 48px;
+  margin-bottom: 12px;
+}
+::placeholder {
+  padding-left: 10px;
+  font-size: 18px;
+  height: 22px;
+  line-height: 16px;
+  color: rgb(118, 118, 118);
+}
+.login-btn {
+  width: 100%;
+  height: 47px;
+  border-radius: 6px;
+  background-color: #1877f2;
+  font-size: 20px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+.login-box a {
+  font-family: inherit;
+  color: #1877f2;
+  font-size: 14px;
+  font-weight: 500;
+}
+.divider {
+  border: 1px solid #dadde1;
+  margin: 20px 0;
+  width: 100%;
+}
+.create-btn {
+  background-color: #42b72a;
+  color: #fff;
+  font-size: 17px;
+  width: 200px;
+  height: 47px;
+  border-radius: 6px;
+  border: none;
+}
+.bottom-text {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
